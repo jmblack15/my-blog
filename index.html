@@ -5,26 +5,41 @@
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <script src="https://kit.fontawesome.com/00eddf29ab.js" crossorigin="anonymous"></script>
    <title>My Blog</title>
    <link rel="stylesheet" href="./css/main.css">
 </head>
 
 <body>
    <header>
-      <section>
-         <div>
-            <a href="">Facebook</a>
-            <a href="">Twitter</a>
-            <a href="">Linkdin</a>
-            <a href="">Instagram</a>
-            <a href="">Youtube</a>
+      <section class="header__container--icons">
+         <div class="icons">
+            <a href=""><span class="fab fa-facebook"></span></a>
+            <a href=""><span class="fab fa-twitter"></span></a>
+            <a href=""><span class="fab fa-instagram"></span></a>
+            <a href=""><span class="fab fa-linkedin"></span></a>
+            <a href=""><span class="fab fa-youtube"></span></a>
          </div>
       </section>
       <nav>
-         <section><a href="/">Logo</a></section>
-         <section><a href="perfil.html">Sobre mi</a></section>
+         <section class="nav__container--logo">
+            <a href="/">
+               <img src="./assets/img/Logo-negro.png" alt="logo de mi blog">
+            </a>
+         </section>
+         <section class="nav__container--link">
+            <a href="perfil.html">Sobre mi</a>
+         </section>
       </nav>
    </header>
+   <main class="home-main">
+      <section>
+         <p class="home-main--text">Conoce las novedades y noticias del Mundo Tech</p>
+         <button class="home-main--button">
+            <a  href="/blogs.html">Entra ya!!</a>
+         </button>    
+      </section>
+   </main>
 </body>
 
 </html>
